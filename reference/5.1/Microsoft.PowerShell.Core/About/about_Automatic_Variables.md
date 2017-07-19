@@ -136,8 +136,7 @@ C:\Users\<UserName>.
 Contains an object that represents the current host application for
 PowerShell. You can use this variable to represent the current host in
 commands or to display or change the properties of the host, such as
-$Host.version or $Host.CurrentCulture, or
-$host.ui.rawui.setbackgroundcolor("Red").
+`$Host.version` or `$Host.CurrentCulture` or `$Host.ui.rawui.BackgroundColor = "Red"`.
 
 ### $INPUT
 
